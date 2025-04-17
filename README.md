@@ -65,6 +65,19 @@ Cosine similarity between 'king' and 'queen': 0.5524
 Similarity percentage: 55.24%
 ```
 
+## Interpreting Similarity Scores
+
+The following table provides guidance on how to interpret the cosine similarity scores:
+
+| Cosine Score | Interpretation |
+|--------------|----------------|
+| 0.95 - 1.00 | Extremely similar (nearly duplicate meaning) |
+| 0.90 - 0.95 | Strong semantic similarity |
+| 0.85 - 0.90 | Related in meaning |
+| 0.75 - 0.85 | Weak to moderate similarity |
+| 0.60 - 0.75 | Vaguely related or topically nearby |
+| < 0.60 | Likely unrelated |
+
 ## Dependencies
 
 - Azure.AI.OpenAI (1.0.0-beta.13)
